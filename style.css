@@ -5,7 +5,7 @@ body{
 .orange-color{
     color:#FFA500;
 }
-.top-banner{
+section.top-banner{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -28,4 +28,22 @@ body{
 }
 .half-width p{
     color: #696969;
+}
+.half-width h1{
+    font-size: 50px;
+}
+section.middle-section{
+    display: flex;
+    padding: 90px 20px;
+}
+.middle-section .half-width h1{
+    font-size: 40px;
+}
+.middle-section .half-width .resume{
+    text-decoration: none;
+    background-image: linear-gradient(#FF926E, #FF674A);
+    padding: 10px 60px;
+    border-radius: 5px;
+    color: #FFEAC4;
+    text-transform: uppercase;
 }
