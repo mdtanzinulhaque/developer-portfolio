@@ -55,7 +55,7 @@ section.dream-area{
 }
 
 .experience-are{
-    padding: 60px 0px;
+    margin-bottom: 150px;
 }
 section.experience-are .flexiable{
     display: flex;
@@ -65,4 +65,9 @@ section.experience-are .flexiable{
     width: 50%;
     margin: 0% 5%;
     padding: 50px;
+    border-radius: 5px;
+}
+.flexiable{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
 }
