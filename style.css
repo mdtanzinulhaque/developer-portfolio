@@ -48,6 +48,12 @@ section.dream-area{
     text-transform: uppercase;
 }
 
+.experience-are{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 section.experience-are .flexiable{
     display: flex;
 }
+
