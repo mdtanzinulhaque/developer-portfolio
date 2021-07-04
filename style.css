@@ -48,6 +48,6 @@ section.dream-area{
     text-transform: uppercase;
 }
 
-section.experience-are{
+section.experience-are .flexiable{
     display: flex;
 }
