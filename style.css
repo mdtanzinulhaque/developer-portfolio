@@ -35,6 +35,12 @@ section.top-banner{
 section.dream-area{
     display: flex;
     padding: 90px 20px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-width{
+    padding: 0px 75px;
 }
 .edream-area .half-width h1{
     font-size: 40px;
@@ -49,11 +55,14 @@ section.dream-area{
 }
 
 .experience-are{
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+    padding: 60px 0px;
 }
 section.experience-are .flexiable{
     display: flex;
 }
-
+.experience-item{
+    box-shadow: 10px 10px 20px gray;
+    width: 50%;
+    margin: 0% 5%;
+    padding: 50px;
+}
