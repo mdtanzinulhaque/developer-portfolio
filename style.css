@@ -60,15 +60,29 @@ section.dream-area{
 section.experience-are .flexiable{
     display: flex;
 }
+.flexiable{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
 .experience-item{
-    box-shadow: 10px 10px 10px 10px gray;
+    box-shadow: 5px 5px 34px 0px grey;
     width: 50%;
     margin: 0% 5%;
     padding: 50px;
     border-radius: 5px;
-    border-left:5px solid;
 }
-.flexiable{
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
+#web-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(#FF9E78, #FF664A);
+    border-image-slice: 1;
+}
+#baby-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(#000CFF, #00E6FF);
+    border-image-slice: 1;   
+}
+footer p{
+    text-align: center;
+    color: #696969;
 }
