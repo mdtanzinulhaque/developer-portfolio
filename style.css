@@ -61,11 +61,12 @@ section.experience-are .flexiable{
     display: flex;
 }
 .experience-item{
-    box-shadow: 10px 10px 20px gray;
+    box-shadow: 10px 10px 10px 10px gray;
     width: 50%;
     margin: 0% 5%;
     padding: 50px;
     border-radius: 5px;
+    border-left:5px solid;
 }
 .flexiable{
     background-image: url(images/exp-bg.png);
