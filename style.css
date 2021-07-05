@@ -57,6 +57,9 @@ section.dream-area{
 .experience-are{
     margin-bottom: 150px;
 }
+.experience-are h2{
+    font-size: 30px;
+}
 section.experience-are .flexiable{
     display: flex;
 }
